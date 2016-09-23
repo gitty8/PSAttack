@@ -91,7 +91,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\Settings.Designer.cs">
+    <Compile Include="Properties\Settings1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -113,31 +113,39 @@
     <Compile Include="Utils\PSAUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
-    <EmbeddedResource Include="Modules\+LWhfHZFVQmlIlxLq8T2ug==" />
-    <EmbeddedResource Include="Modules\0cgtplL99zrnPSESNEEkIoir_85_J1UM_iCSLsMxSwaPJpiVkHPr64POrprboDM_" />
-    <EmbeddedResource Include="Modules\3mA_plYWQFhw2zLVVe+1FA==" />
-    <EmbeddedResource Include="Modules\6+lNVaSq20XmNjGkuxdAqw8DTZ18gD1rdpUcyC8YwEx3+6fF48Fnqi2uvGtwl0tz" />
-    <EmbeddedResource Include="Modules\GD2jgciIKmvJdQfzqIuEf0eogQJYXfUO1eIml4DcHwMrB3gQfucWFzRpQoqJbIYT" />
-    <EmbeddedResource Include="Modules\GnY7KxmRvP9GRf_CGMCEzXJ2lR+x9ydOFcusDP0LANw=" />
-    <EmbeddedResource Include="Modules\gzhq_wDLFVYKC8PBxfPbSH4VWfzZgXI2heZ1BmTdpVQ=" />
-    <EmbeddedResource Include="Modules\Kg6BAK7FhabU8uSKfzdAMuMG+Q1H3utqXFR+9h24Ncg=" />
-    <EmbeddedResource Include="Modules\lcrseqbJdgqrw2lM6ppaav6YY3DHuq1Wee37vPPgnNnDJix9MDFmrmUDfU+V5wdM" />
-    <EmbeddedResource Include="Modules\lWxE3VtA+TLHgs56vjv9e6azAxIAMxCCjbjq3bYfQcs=" />
-    <EmbeddedResource Include="Modules\N+jD2IBV3Pat0_mbE+l3VBtRtf3mnKFgztF68fm3wDk=" />
-    <EmbeddedResource Include="Modules\nKkWzst4r7rvZvTISCdiMf927S4vEJ0B919NtQNOTg4=" />
-    <EmbeddedResource Include="Modules\P13HB1p_4K04ja190mDq0AaxrBbOjbXKJIEAaPhPzWY=" />
-    <EmbeddedResource Include="Modules\r9sV+VF8shS1map+_pTqPg==" />
-    <EmbeddedResource Include="Modules\sfN1sF_kzOQ1abZcDF0mg1fbOD1uBZ1OOuGctv0KxOU=" />
-    <EmbeddedResource Include="Modules\Tvdcpgw7baQOaJaKrjrUbZKtiWH0R6usGNeWu_cYwJI=" />
-    <EmbeddedResource Include="Modules\Wxc4ikFQU3E0rlcwHXQJqGnprGZwjkJ3YeNs+VTKS2s=" />
-    <EmbeddedResource Include="Modules\Wxc4ikFQU3E0rlcwHXQJqGv8LrBKG3yZp_tqciMKwQrsDesxJj16xZcQ9+9Eys+6" />
-    <EmbeddedResource Include="Modules\Wxc4ikFQU3E0rlcwHXQJqH8IMDXPrMXriCEoV+IlorgEelwmHErdyHb1RmLXrAilK3fNGNLax2ufb2qJ1XW9ZQ==" />
-    <EmbeddedResource Include="Modules\Wxc4ikFQU3E0rlcwHXQJqOomglX9mY7ot_n60WDIy6Q=" />
-    <EmbeddedResource Include="Modules\xSQCK0WKT_NBJFb8F9t95ygaLj0m47rOdTucqrTvREE=" />
-    <EmbeddedResource Include="Modules\XZaQ1L30p2JCMvgonlQHdhMI_Gpw0PXohjg6rcxyd70Ue_2TfTG3ngUVU_tJOIE8" />
-    <EmbeddedResource Include="Modules\ymH31aJl15zuv+zjNFAHZ0BqPGx_ewBhbR9GeH6uMnAouH5j+Bxh6LIzi3_hcmrM" />
-    <EmbeddedResource Include="Modules\yZGzoxaXDlv85ey6oTnqe3HIZnEC1GdnlHnFioNx8s4=" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Modules\d4Tzi3IhOjLOXCAlB2Qj12JGkUZ49Y2d7JnOGMmKXl8ippdH66CuewVqMuLENSqobFTUZ2XKzKC2hzlCEmpxHw==" />
+    <EmbeddedResource Include="Modules\dZ9cAkI2UpUOW00+0qe6tomPuXNWndKKEoQ9theE2bsoxExqABRklFXvRdcVfuBSS3RHA_0XIowW9iMHfmMXoA==" />
+    <EmbeddedResource Include="Modules\dZ9cAkI2UpUOW00+0qe6tomPuXNWndKKEoQ9theE2bt8peYExJ6G1tbji+OCmmnZpYBtYt0bI93_MebaHDG4ew==" />
+    <EmbeddedResource Include="Modules\dZ9cAkI2UpUOW00+0qe6tomPuXNWndKKEoQ9theE2btVewsSnsoqZ3ZpAxKEGKQHZJLyBSpmLW44dfIXq9DlDzElqH0vGXCG6SzAj9bABY8=" />
+    <EmbeddedResource Include="Modules\dZ9cAkI2UpUOW00+0qe6tomPuXNWndKKEoQ9theE2buh99DFnc+v7+Qi0C4chQmP_BHo0BIrj5GNX2I2uQDbtg==" />
+    <EmbeddedResource Include="Modules\dZ9cAkI2UpUOW00+0qe6tomPuXNWndKKEoQ9theE2bvE2me3xfUR3MbE9ANc66Yns1v0fyGH4U9yb_vChDLF0w==" />
+    <EmbeddedResource Include="Modules\dZ9cAkI2UpUOW00+0qe6ttTHcMbY9iEaiucMvbdgmYCtfb9KUH_F9Uw_H+ozW0E+GX57dLBJOVj94VZ226qz7HlsWN2adK1CmEFO6Pc9EQE=" />
+    <EmbeddedResource Include="Modules\EKp8T6RIcV+VqajqlFIPGztYex4PBMIJsUSmgZy6pixg78znOfRwCzBv4KGSqWuRPYyuQyJo49Wp0jYgxRxkm4vcMy9P2SePrSq4ryktBOg=" />
+    <EmbeddedResource Include="Modules\jLJXovEBNhLPa+GlUlxQUfw_T1VXzUSkv101tlxKuEplvNi8dYAoveHDAN+mYqAa" />
+    <EmbeddedResource Include="Modules\jLJXovEBNhLPa+GlUlxQUfYgStdTmoPUjCnM3XmW7WNCGulkYo97Z6fvcuYORzMXbDW_IERs1A0rb5ppNaVMKg==" />
+    <EmbeddedResource Include="Modules\jLJXovEBNhLPa+GlUlxQUfYgStdTmoPUjCnM3XmW7WNCGulkYo97Z6fvcuYORzMXhBXD2Ykb8ZwpE4p2tVq0dA==" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWgznrknBpEJAYSISrlvc9M_h_4Cn70Ymle3AbqIzzcWW" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWlyDFXed9xPLTLmbZCSuE5_A6IcnrUiae9na3CgS1iUf_+63I7cuOa+grljJMe0mkg==" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWn9ii1IKctGtq0xoOTD0JYW90f1P_prTvQu23HwE5NKUUemTz8jgB_xIZYZhrT3dyQ==" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWnXyDugsp_XP11KQCCHkRHDvEqjNmk0CvuJXooKuj+A2" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWq3P7EBkT3qrzTQKaMdVl55KONuFJZ+NnPVMau7bDV3_" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWtkB8Cmm742Ao80nMdwumqdIh4+znSB3oDnxyZvnFEGzPMfOdNK2KWxub_Vg3ouVhg==" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWucQi6pt5XLiJoiCBf6X41_tpHpEdKok_CdXq6pnfjizkg5OUozHDV5RB4XLMr4NsQ==" />
+    <EmbeddedResource Include="Modules\qBihAuTgZPjdSPLA+PgOWvq2OepZnXFgRQFGVYXr2eSce8rYUFw4vJAwMXuMYu7W9wAapySknF9j3EPVYMFsOA==" />
+    <EmbeddedResource Include="Modules\XD4IxgTO63zn0sMKi9tsrJBbJe_rO3VoQsrXW2bz0huxX0WeKznjhUHDlhKaBZYB" />
+    <EmbeddedResource Include="Modules\xJxnD+BjUpSlvgmDQ82MOEzdlVS7iqCI6ah2MHe6evFLCV7fNuEb5wPxgwCXdSx0" />
+    <EmbeddedResource Include="Modules\xJxnD+BjUpSlvgmDQ82MOEzdlVS7iqCI6ah2MHe6evGQuVIdDDRdgREf87k9DKFE" />
+    <EmbeddedResource Include="Modules\xl_K3TTZWHW0rYyQ0eZGg+aPvGtVJ2qm5uwptz1JNF3ecZOsGSRHn9ZHz1yn87WzMMpnTdIAKjtNybBQ7pk9ktQqpmw_caCjUpG_8ZZpDmY=" />
+    <EmbeddedResource Include="Modules\xl_K3TTZWHW0rYyQ0eZGg_8UJTyfnVr+9VOwtPrvLGl85WHy2uF+lqx7LJkSn+2x_bJ9+QeDrOh_LJp4OKm4uWpo5E535JDHFu4W1Bgnsz8=" />
+    <EmbeddedResource Include="Modules\Z88nr1dHSbdGP1mOBCio2Kiq3IpPyD56+PRpvAFITlTZPH8ngwQ2b_wiP7UFKmqu" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Resources\aOrDaHgtdqChycJcMUyiAkhCICjFwBjJQWmjyGvhzmFytwAumtFDeaPpgovXYawb" />
     <EmbeddedResource Include="Resources\FvUlcAlwXoarMigdJSYGltVyhoXZWufstEmQQkxwHNJqkHxrDAOWlECLaVEncLZd" />
   </ItemGroup>
   <ItemGroup>
