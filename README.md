@@ -47,7 +47,7 @@ Another option is to use the [PS>Attack Build Tool](https://www.github.com/jared
 Of course, you can also just clone the repo and compile the code yourself. You can use Visual Studio Community Edition to work with it and compie it.
 
 #### Contact Info
-If you have any questions or suggestions for PS>Attack, feel free to submit an issue or you can reachout on [twitter](https://www.twitter.com/jaredhaight) or via email: jaredhaight `at` prontonmail.com
+If you have any questions or suggestions for PS>Attack, feel free to submit an issue or you can reachout on [twitter](https://www.twitter.com/jaredhaight) or via email: jh `at` psattack.com
 
 #### Gr33tz
 PS>Attack was inspired by and benefits from a lot of incredible people in the PowerShell community. Particularly [mattifiestation](https://twitter.com/mattifestation) of PowerSploit and [sixdub](https://twitter.com/sixdub), [engima0x3](https://twitter.com/enigma0x3) and [harmj0y](https://twitter.com/HarmJ0y) of Empire. Besides writing the modules and commands that give PS>Attack it's punch, their various projects have inspired a lot of my approach to this project as well as my decision to try and contribute something back to the community.
