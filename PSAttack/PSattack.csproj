@@ -80,6 +80,10 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -141,6 +145,7 @@
     <EmbeddedResource Include="Modules\xl_K3TTZWHW0rYyQ0eZGg+aPvGtVJ2qm5uwptz1JNF3ecZOsGSRHn9ZHz1yn87WzMMpnTdIAKjtNybBQ7pk9ktQqpmw_caCjUpG_8ZZpDmY=" />
     <EmbeddedResource Include="Modules\xl_K3TTZWHW0rYyQ0eZGg_8UJTyfnVr+9VOwtPrvLGl85WHy2uF+lqx7LJkSn+2x_bJ9+QeDrOh_LJp4OKm4uWpo5E535JDHFu4W1Bgnsz8=" />
     <EmbeddedResource Include="Modules\Z88nr1dHSbdGP1mOBCio2Kiq3IpPyD56+PRpvAFITlTZPH8ngwQ2b_wiP7UFKmqu" />
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
@@ -156,7 +161,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>powershell -command "get-date -F G" &gt; "$(ProjectDir)\Resources\BuildDate.txt"</PreBuildEvent>
+    <PreBuildEvent>echo %25date%25 %25time%25 &gt; "$(ProjectDir)Resources\BuildDate.txt"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
