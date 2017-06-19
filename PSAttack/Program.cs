@@ -29,7 +29,8 @@ namespace PSAttack
 
             // Get Encrypted Values
             Assembly assembly = Assembly.GetExecutingAssembly();
-            Stream valueStream = assembly.GetManifestResourceStream("PSAttack.Resources." + Properties.Settings.Default.valueStore);
+            String valueStoreString = Properties.Settings.Default.valueStore;
+            Stream valueStream = assembly.GetManifestResourceStream("PSAttack.Resources." + valueStoreString);
             MemoryStream valueStore = CryptoUtils.DecryptFile(valueStream);
             string valueStoreStr = Encoding.Unicode.GetString(valueStore.ToArray());
 

@@ -107,12 +107,12 @@ namespace PSAttack.PSAttackProcessing
 
                 }
                 // TODO: Make this better.
-                else if (attackState.cmd.Contains(".exe"))
-                {
-                    attackState.cmd = "Start-Process -NoNewWindow -Wait " + attackState.cmd;
-                    attackState = Processing.PSExec(attackState);
-                    Display.Output(attackState);
-                }
+                //else if (attackState.cmd.Contains(".exe"))
+                //{
+                //    attackState.cmd = "Start-Process -NoNewWindow -Wait " + attackState.cmd;
+                //    attackState = Processing.PSExec(attackState);
+                //    Display.Output(attackState);
+                //}
                 // assume that we just want to execute whatever makes it here.
                 else
                 {
