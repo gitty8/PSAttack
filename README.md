@@ -15,14 +15,13 @@ PS>Attack combines some of the best projects in the infosec powershell community
 
 PS>Attack contains over 100 commands for Privilege Escalation, Recon and Data Exfilitration. It does this by including the following modules and commands:
 
-* [Powersploit](https://github.com/PowerShellMafia/PowerSploit)
+* [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
   - Invoke-Mimikatz
   - Get-GPPPassword
   - Invoke-NinjaCopy
   - Invoke-Shellcode
   - Invoke-WMICommand
   - VolumeShadowCopyTools
-* [PowerTools](https://github.com/PowerShellEmpire/PowerTools)
   - PowerUp
   - PowerView
 * [Nishang](https://github.com/samratashok/nishang)
@@ -34,6 +33,7 @@ PS>Attack contains over 100 commands for Privilege Escalation, Recon and Data Ex
   - Invoke-PsUACme
 * [Powercat](https://github.com/besimorhino/powercat)
 * [Inveigh](https://github.com/Kevin-Robertson/Inveigh)
+* [Invoke-TheHash](https://github.com/Kevin-Robertson/Invoke-TheHash)
 
 It also comes bundled with `get-attack`, a command that allows you to search through the included commands and find the attack that you're looking for.
 
