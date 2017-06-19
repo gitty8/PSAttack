@@ -1,5 +1,7 @@
-## PS>Attack [![Build status](https://ci.appveyor.com/api/projects/status/x8doqg2vv73f131x?svg=true)](https://ci.appveyor.com/project/jaredhaight/pspunch)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jaredhaight/PSAttack/master/PSAttackLogoBox.png">
+[![Build status](https://ci.appveyor.com/api/projects/status/x8doqg2vv73f131x?svg=true)](https://ci.appveyor.com/project/jaredhaight/pspunch)
+</p>
 _A portable console aimed at making pentesting with PowerShell a little easier._
 
 #### What is it
