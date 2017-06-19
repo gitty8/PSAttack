@@ -14,6 +14,12 @@ namespace PSAttack.Utils
         public static string createPrompt(AttackState attackState)
         {
             string prompt = attackState.runspace.SessionStateProxy.Path.CurrentLocation + " #> ";
+            if (prompt.Length >= (Console.WindowWidth - 20))
+            {
+                int offset = prompt.Length - (Console.WindowWidth - 20);
+                prompt = prompt.Remove(0, offset);
+                prompt = "..." + prompt;
+            }
             attackState.promptLength = prompt.Length;
             return prompt;
         }
