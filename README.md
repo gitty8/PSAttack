@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jaredhaight/PSAttack/master/PSAttackLogoBox.png">
+  <img src="https://raw.githubusercontent.com/jaredhaight/PSAttack/master/PSAttackLogoBox.png" width=400>
 </p>
-
-_A portable console aimed at making pentesting with PowerShell a little easier._
+<p align="center">
+  <i>A portable console aimed at making pentesting with PowerShell a little easier.</i>
+<p>
 
 #### What is it
 PS>Attack combines some of the best projects in the infosec powershell community into a self contained custom PowerShell console. It's designed to make it easy to use PowerShell offensively and to evade antivirus and Incident Response teams. It does this with in a couple of ways.
