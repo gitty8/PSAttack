@@ -64,44 +64,46 @@ namespace PSAttack.PSAttackShell
         {
             Dictionary<string, System.Management.Automation.PSObject> rtn = null;
             string msg = message + "\n";
-            if (descriptions != null)
-            {
-                rtn = GetParameters(descriptions);
-            }
+            // 2017/06/19: GetParameters probably isn't needed (Github issue #25). Commenting out for now 
+            //if (descriptions != null)
+            //{
+            //    rtn = GetParameters(descriptions);
+            //}
             return rtn;
         }
 
-        private Dictionary<string, System.Management.Automation.PSObject> GetParameters(System.Collections.ObjectModel.Collection<FieldDescription> descriptions)
-        {
-            Dictionary<string, System.Management.Automation.PSObject> rtn = new Dictionary<string, System.Management.Automation.PSObject>();
-            PSParamType parm = new PSParamType();
-            foreach (FieldDescription descr in descriptions)
-            {
-                PSParameter prm = new PSParameter();
-                prm.Name = descr.Name;
-                if (descr.IsMandatory)
-                {
-                    prm.Category = "Required";
-                }
-                else
-                {
-                    prm.Category = "Optional";
-                }
-                prm.DefaultValue = descr.DefaultValue;
-                prm.Description = descr.HelpMessage;
-                prm.Type = Type.GetType(descr.ParameterAssemblyFullName);
-                if (prm.Name.ToLower() == "file" || prm.Name.ToLower() == "filename")
-                {
-                    prm.IsFileName = true;
-                }
-                if (prm.Name.ToLower() == "credential")
-                {
-                    prm.IsCredential = true;
-                }
-                parm.Properties.Add(prm);
-            }
-            return rtn;
-        }
+        // 2017/06/19: GetParameters probably isn't needed (Github issue #25). Commenting out for now 
+        //private Dictionary<string, System.Management.Automation.PSObject> GetParameters(System.Collections.ObjectModel.Collection<FieldDescription> descriptions)
+        //{
+        //    Dictionary<string, System.Management.Automation.PSObject> rtn = new Dictionary<string, System.Management.Automation.PSObject>();
+        //    PSParamType parm = new PSParamType();
+        //    foreach (FieldDescription descr in descriptions)
+        //    {
+        //        PSParameter prm = new PSParameter();
+        //        prm.Name = descr.Name;
+        //        if (descr.IsMandatory)
+        //        {
+        //            prm.Category = "Required";
+        //        }
+        //        else
+        //        {
+        //            prm.Category = "Optional";
+        //        }
+        //        prm.DefaultValue = descr.DefaultValue;
+        //        prm.Description = descr.HelpMessage;
+        //        prm.Type = Type.GetType(descr.ParameterAssemblyFullName);
+        //        if (prm.Name.ToLower() == "file" || prm.Name.ToLower() == "filename")
+        //        {
+        //            prm.IsFileName = true;
+        //        }
+        //        if (prm.Name.ToLower() == "credential")
+        //        {
+        //            prm.IsCredential = true;
+        //        }
+        //        parm.Properties.Add(prm);
+        //    }
+        //    return rtn;
+        //}
 
         public override void Write(ConsoleColor foregroundColor, ConsoleColor backgroundColor, string message)
         {
