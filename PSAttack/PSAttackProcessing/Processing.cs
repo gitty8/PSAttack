@@ -32,7 +32,10 @@ namespace PSAttack.PSAttackProcessing
                     }
                     List<char> displayCmd = attackState.displayCmd.ToList();
                     int relativeCursorPos = attackState.relativeCmdCursorPos();
+                    if (relativeCursorPos < displayCmd.Count)
+                    {
                     displayCmd.RemoveAt(relativeCursorPos);
+                    }
                     attackState.displayCmd = new string(displayCmd.ToArray());
                 }
             }
